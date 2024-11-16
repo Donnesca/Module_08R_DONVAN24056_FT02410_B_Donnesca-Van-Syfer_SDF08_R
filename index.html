@@ -12,41 +12,119 @@
   </head>
 
   <body>
-    <footer class="bg-[#659f8f]">
-      <div class="container px-6 py-12 mx-auto">
-        <div class="flex justify-around">
-          <div class="sm:col-span-2">
-            <h1 class="max-w-lg">Subscribe to our newsletter for updates.</h1>
-            <div class="flex">
-              <input id="email" type="text" />
-              <button class="w-full px-6 py-2.5 bg-white">Subscribe</button>
+    <footer class="bg-[#659f8f] p-20">
+      <div class="container px-6 py-10 mx-auto">
+        <div class="md:flex justify-between">
+          <div>
+            <h1 class="text-xl mb-6">
+              Subscribe to our newsletter for updates.
+            </h1>
+            <div class="2xl:max-2xl:flex space-x-3 space-y-3">
+              <input
+                id="email"
+                type="email"
+                class="rounded-lg placeholder-gray-400 w-60 px-6 py-2"
+                placeholder="Email Address"
+                required
+                autocomplete="off"
+              />
+
+              <button
+                class="w-30 px-6 py-2.5 bg-orange-600 rounded-lg text-white hover:bg-orange-700 active:bg-orange-800 focus:ring focus:ring-orange-400"
+              >
+                Subscribe
+              </button>
             </div>
           </div>
           <div>
-            <p class="text-[#313131]">Quick Link</p>
-            <div class="flex flex-col">
-              <a href="#">Home</a>
-              <a href="#">Who We Are</a>
-              <a href="#">Our Philosophy</a>
+            <p class="text-[#313131] py-3">Quick Link</p>
+            <div class="flex flex-col leading-loose">
+              <a href="#" class="hover:underline">Home</a>
+              <a href="#" class="hover:underline">Who We Are</a>
+              <a href="#" class="hover:underline">Our Philosophy</a>
             </div>
           </div>
           <div>
-            <p class="text-[#313131]">Technologies</p>
-            <div class="flex flex-col">
-              <a href="#">HTML</a>
-              <a href="#">CSS</a>
-              <a href="#">JavaScript</a>
+            <p class="text-[#313131] py-3">Technologies</p>
+            <div class="flex flex-col leading-loose">
+              <a href="#" class="hover:underline">HTML</a>
+              <a href="#" class="hover:underline">CSS</a>
+              <a href="#" class="hover:underline">JavaScript</a>
             </div>
           </div>
         </div>
       </div>
+      <div class="flex justify-evenly">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+          class="hover:bg-blue-500 active:bg-blue-800 rounded-xl hover:cursor-pointer"
+        >
+          <path
+            fill="#111928"
+            fill-rule="evenodd"
+            d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
+            clip-rule="evenodd"
+          />
+        </svg>
 
-      <hr class="my-6 border-[#d86943]" />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+          class="hover:bg-blue-500 active:bg-blue-800 rounded-xl hover:cursor-pointer"
+        >
+          <path
+            fill="#111928"
+            d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"
+          />
+        </svg>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+          class="hover:bg-blue-500 active:bg-blue-800 rounded-xl hover:cursor-pointer"
+        >
+          <path
+            fill="#111928"
+            fill-rule="evenodd"
+            d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
+            clip-rule="evenodd"
+          />
+        </svg>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+          class="hover:bg-blue-500 active:bg-blue-800 rounded-xl hover:cursor-pointer"
+        >
+          <path
+            fill="#111928"
+            fill-rule="evenodd"
+            d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z"
+            clip-rule="evenodd"
+          />
+          <path fill="#111928" d="M7.2 8.809H4V19.5h3.2V8.809Z" />
+        </svg>
+      </div>
+
+      <hr class="w- my-6 mx-auto pl-6 border-[#d86943]" />
 
       <div class="flex">
         <a href="#">
           <img
-            class="w-auto h-7"
+            class="w-auto h-7 pl-25"
             src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg"
             alt=""
           />
